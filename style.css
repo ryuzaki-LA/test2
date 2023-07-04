@@ -1,0 +1,5 @@
+<style>
+    :root {
+        --hacker: url("javascript:alert('XSS')") !important; /* Malicious CSS value */
+    }
+</style>
